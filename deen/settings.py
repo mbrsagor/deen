@@ -43,7 +43,8 @@ DEFAULT_APPS = [
 ]
 
 LOCAL_APPS = [
-    'user',    
+    'user',
+    'ramadan',
 ]
 
 THIRD_PARTY_APPS = [
