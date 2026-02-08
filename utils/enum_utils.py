@@ -3,8 +3,8 @@ from enum import IntEnum
 
 class UserRole(IntEnum):
     ADMIN = 1
-    MERCHANT = 2
-    CUSTOMER = 3
+    CUSTOMER = 2
+    MERCHANT = 3
 
     @classmethod
     def get_choices(cls):
