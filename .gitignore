@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Editor Directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Node / NPM (in case you add a build step later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Extension builds
+*.crx
+*.pem
+*.zip
+
+# OS Generated Files
+Thumbs.db

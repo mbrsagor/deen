@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Eye Care Break Timer",
+  "version": "1.0",
+  "description": "Reminds you to take an eye break every 20 minutes.",
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Eye Care Settings"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
