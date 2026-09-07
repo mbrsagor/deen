@@ -19,12 +19,14 @@ chrome.runtime.onInstalled.addListener(() => {
   });
 });
 
+// Helper function to set the work timer alarm
 function startWorkTimer(minutes) {
   chrome.alarms.clearAll(() => {
     chrome.alarms.create(WORK_ALARM, { delayInMinutes: minutes });
   });
 }
 
+// Helper function to set the break timer alarm
 function startBreakTimer(minutes) {
   chrome.alarms.clearAll(() => {
     chrome.alarms.create(BREAK_ALARM, { delayInMinutes: minutes });
